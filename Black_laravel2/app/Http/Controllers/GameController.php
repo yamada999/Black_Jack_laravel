@@ -81,7 +81,7 @@ class GameController extends Controller
         
         //勝敗判定
         if($player['point'] <= $dealer['point'] || $dealer['point'] == '') {
-            $msg = 'YOU LOOS';
+            $msg = 'YOU LOSE';
         } else {
             $msg = 'YOU WIN';
         }
