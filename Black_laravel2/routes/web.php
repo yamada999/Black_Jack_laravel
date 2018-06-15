@@ -11,15 +11,10 @@
 |
 */
 
-Route::get('', function () {
-    return view('welcome');
-});
-
-Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
 
-Route::get('game', 'GameController@start')->name('game');
+Route::get('', 'GameController@start')->name('game');
 
 Route::get('hit', 'GameController@hit')->name('hit');
 

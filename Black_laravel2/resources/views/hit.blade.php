@@ -29,7 +29,7 @@
                 <button class="btn btn-primary" type="button" onclick="location.href='{{ route('game') }}'">リスタート</button>
             </div>
             <div>
-                <a id='main' href="{{ route('home') }}">HOME</a>
+                <a id='main' href="{{ route('geme') }}">HOME</a>
             </div>
         </form>
     </body>
